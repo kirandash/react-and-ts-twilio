@@ -15,4 +15,6 @@
 
 ## 3 Common types
 - In type script, we only need to provide type for those which js can't figure out intuitively. Ex: number + number will always be a number, no need to mention the return type. But if return type is other than number we should mention it
-- 
+
+## 4 Hook
+- When onChanege fn is passed inline, we don't need to set type for event because ts is smart enough to know
